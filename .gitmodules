@@ -1,0 +1,6 @@
+[submodule "microservices/algashop-docs"]
+	path = microservices/algashop-docs
+	url = https://github.com/MarvinMendes/algashop-docs.git
+[submodule "microservices/algashop-ordering"]
+	path = microservices/algashop-ordering
+	url = https://github.com/MarvinMendes/algashop-ordering.git
