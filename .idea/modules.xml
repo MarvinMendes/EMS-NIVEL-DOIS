@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/EMS-NIVEL-DOIS.iml" filepath="$PROJECT_DIR$/.idea/EMS-NIVEL-DOIS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ordering.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ordering.main.iml" />
     </modules>
   </component>
 </project>
