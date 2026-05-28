@@ -22,6 +22,7 @@ import java.util.UUID;
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @EntityListeners(AuditingEntityListener.class)
 public class OrderPersistenceEntity {
+
     @Id
     @EqualsAndHashCode.Include
     private Long id;

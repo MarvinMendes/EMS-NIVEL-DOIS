@@ -1,6 +1,7 @@
 package com.algaworks.algashop.ordering.domain.entity;
 
 import com.algaworks.algashop.ordering.domain.valueobject.*;
+import com.algaworks.algashop.ordering.domain.valueobject.id.CustomerId;
 
 import java.time.LocalDate;
 import java.time.OffsetDateTime;
@@ -31,7 +32,7 @@ public class CustomerTestDataBuilder {
 
     public static Customer.ExistingCustomerBuild existingCustomer() {
         return Customer.existing()
-                .id(new com.algaworks.algashop.ordering.domain.valueobject.CustomerId())
+                .id(new CustomerId())
                 .registeredAt(OffsetDateTime.now())
                 .promotionNotificationsAllowed(true)
                 .archived(false)

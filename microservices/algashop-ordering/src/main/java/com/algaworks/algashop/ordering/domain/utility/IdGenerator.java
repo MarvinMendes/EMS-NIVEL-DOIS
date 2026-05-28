@@ -11,9 +11,7 @@ public class IdGenerator {
     private static final TimeBasedEpochRandomGenerator timeBasedEpochRandomGenerator
             = Generators.timeBasedEpochRandomGenerator();
 
-    private static final TSID.Factory tsidFactory = TSID.Factory.INSTANCE;
-
-
+    private static final TSID.Factory tsidFactroy = TSID.Factory.INSTANCE;
 
     private IdGenerator() {
     }
@@ -22,7 +20,12 @@ public class IdGenerator {
         return timeBasedEpochRandomGenerator.generate();
     }
 
+    /*
+     * TSID_NODE
+     * TSID_NODE_COUNT
+     */
     public static TSID gererateTSID() {
-        return tsidFactory.generate();
+        return tsidFactroy.generate();
     }
+
 }
